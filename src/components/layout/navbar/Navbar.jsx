@@ -41,7 +41,9 @@ const Navbar = () => {
             </li>
             <li>
               <IconButton>
-                <UserIcon />
+                <Link to={"login"}>
+                  <UserIcon />
+                </Link>
               </IconButton>
             </li>
             <li>

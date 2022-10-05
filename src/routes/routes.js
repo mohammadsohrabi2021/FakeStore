@@ -4,6 +4,7 @@ import AboutUs from "../pages/about-us/AboutUs";
 import Concat from "../pages/Concat/Concat";
 import Categories from "../pages/categories/Categories";
 import Layout from "../components/layout";
+import Login from "../pages/Login/Login";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
       {
         path: "categories/:categoryID",
         element: <Categories />,
+      },
+      {
+        path: "Login",
+        element: <Login />,
       },
     ],
   },
