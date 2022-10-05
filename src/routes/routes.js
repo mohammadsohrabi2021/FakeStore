@@ -1,6 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import Home from "../pages/home";
 import AboutUs from "../pages/about-us/AboutUs";
+import Concat from "../pages/Concat/Concat";
 import Categories from "../pages/categories/Categories";
 import Layout from "../components/layout";
 const router = createBrowserRouter([
@@ -15,6 +16,10 @@ const router = createBrowserRouter([
       {
         path: "about-us",
         element: <AboutUs />,
+      },
+      {
+        path: "Concat",
+        element: <Concat />,
       },
       {
         path: "categories/:categoryID",

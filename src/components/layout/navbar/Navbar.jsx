@@ -15,6 +15,10 @@ const menuItems = [
     title: "درباره ما",
     href: "/about-us",
   },
+  {
+    title: "تماس باما",
+    href: "/Concat",
+  },
 ];
 
 const Navbar = () => {
